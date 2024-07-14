@@ -1,0 +1,53 @@
+body {
+  background-color: #0d0d0d;
+  color: #f9f6f6 !important;
+  overflow: hidden;
+}
+
+.waiting-screen {
+  z-index: 999;
+  display: flex;
+}
+
+.inner-waiting-screen {
+  position: absolute;
+  z-index: 9;
+  background-color: #0d0d0d;
+  display: flex;
+}
+
+.nav-bar {
+  background-color: #0d0d0d;
+}
+
+.side-bar-menu {
+  z-index: 99;
+}
+
+.logo {
+  width: 50px;
+}
+
+i {
+  cursor: pointer;
+}
+
+.meal-layer {
+  width: 100%;
+  height: 100%;
+  background-color: #f9f6f6ca;
+  top: 100%;
+  transition: 0.5s;
+}
+
+.meal:hover .meal-layer {
+  top: 0;
+}
+
+.c-pointer {
+  cursor: pointer;
+}
+
+.alert {
+  width: fit-content;
+}
